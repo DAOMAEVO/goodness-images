@@ -2,6 +2,8 @@
 
 基于 OpenAI 图像生成接口的图片生成与编辑工具。提供简洁的 Web UI，支持文本生成图片、参考图编辑、可视化参数调节、历史记录管理与本地数据导入导出。
 
+示例网站：[https://image.tradingploy.com/](https://image.tradingploy.com/)
+
 ---
 
 ## 📸 功能截图

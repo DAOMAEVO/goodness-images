@@ -5,8 +5,6 @@ dev-proxy.config.json
 .env.*
 !.env.example
 !.env.*.example
-deploy/bundle/
-deploy/bundle-verify/
 docs/outputs/
 *.tar
 *.zip
