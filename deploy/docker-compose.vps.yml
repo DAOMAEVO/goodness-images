@@ -1,0 +1,9 @@
+services:
+  gpt-image-playground:
+    image: ${IMAGE_NAME:-gpt-image-playground}:${IMAGE_TAG:-vps}
+    container_name: ${CONTAINER_NAME:-gpt-image-playground}
+    restart: unless-stopped
+    ports:
+      - "${HOST_PORT:-8080}:80"
+    environment:
+      API_URL: ${API_URL:-https://api.openai.com/v1}

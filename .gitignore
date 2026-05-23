@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dev-proxy.config.json
+.env
+.env.*
+!.env.example
+!.env.*.example
+deploy/bundle/
+deploy/bundle-verify/
+docs/outputs/
+*.tar
+*.zip
