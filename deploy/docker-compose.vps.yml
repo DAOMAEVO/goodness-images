@@ -1,0 +1,9 @@
+services:
+  goodness-images:
+    image: ${IMAGE_NAME:-goodness-images}:${IMAGE_TAG:-vps}
+    container_name: ${CONTAINER_NAME:-goodness-images}
+    restart: unless-stopped
+    ports:
+      - "${HOST_PORT:-8080}:80"
+    environment:
+      API_URL: ${API_URL:-https://api.openai.com/v1}
